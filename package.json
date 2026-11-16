@@ -1,0 +1,27 @@
+{
+  "name": "academic-task-manager",
+  "version": "1.0.0",
+  "description": "Academic task manager built with Node.js, Express and the MVC architecture.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mvc",
+    "crud",
+    "tasks"
+  ],
+  "author": "Student",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "uuid": "^11.1.1"
+  }
+}
