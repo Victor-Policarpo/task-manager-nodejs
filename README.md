@@ -424,18 +424,3 @@ View
   │ para atualizar lista e indicadores
   ▼
 ```
-
-## Armazenamento em memória e limitações
-
-O array de tarefas existe apenas no processo do servidor. Consequências:
-
-- ao reiniciar o servidor, todas as tarefas são perdidas;
-- não há persistência em banco de dados, arquivo JSON ou `localStorage`;
-- não há autenticação, controle de usuários ou compartilhamento entre instâncias;
-- a aplicação deve ser executada em um único processo para manter uma visão consistente dos dados.
-
-Essas limitações são intencionais e fazem parte do escopo acadêmico. Para uso real, seria necessário adicionar persistência e outros requisitos de segurança e escalabilidade.
-
-## Roteiro de apresentação
-
-O roteiro completo do vídeo de 5 a 8 minutos, com falas sugeridas, checklist de gravação e perguntas prováveis da banca, está em [`APRESENTACAO.md`](./APRESENTACAO.md).
